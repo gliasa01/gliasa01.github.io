@@ -2,7 +2,6 @@
 layout: default
 title:  "L'Ordinateur code l'information"
 date:   2017-09-27 20:12
-categories: learn, code, computer, program, binary
 ---
 ## L'Ordinateur code l'information
 
