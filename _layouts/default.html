@@ -3,30 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-{% seo %}
-
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{'assets/css/font-awesome.min.css' | relative_url }}">
     <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
   </head>
   <body>
     <div class="wrapper">
       <header>
         <img class="profile" src="{{ site.profile_pic }}">
 
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">Projects on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
+        <h1><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <p>◼️ Technology Student from ESF</p>
+        <p>◼️ Go to 42 School </p>
+        <p>◼️ Arch Linux Power User</p>
 
         {% if site.github.is_user_page %}
-          <p class="view"><img src="../assets/img/github-logo.png"><a href="{{ site.github.owner_url }}">GitHub</a>   <img src="../assets/img/twitter-logo.png"><a href="{{ site.twitter }}">Twitter</a></p>
+          <p class="view"><a href="{{ site.github.owner_url }}"><i class="fa fa-github-square" aria-hidden="true"></i></a></p> 
+          <p class="view"><a href="{{ site.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></p>
         {% endif %}
 
         {% if site.show_downloads %}
@@ -38,9 +31,6 @@
         {% endif %}
       </header>
       <section>
-
-      {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
