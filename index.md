@@ -2,7 +2,7 @@
 layout: default
 ---
 <section>
-<h1>Learn</h1>
+<h1>Posts</h1>
 
 <ul class="posts">
     {% for post in site.posts %}
