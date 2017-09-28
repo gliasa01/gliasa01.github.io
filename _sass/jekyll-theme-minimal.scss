@@ -65,6 +65,10 @@ a:hover small {
   text-decoration: none;
   color: black;
 }
+.title:hover {
+  text-decoration: none;
+  color: black;
+}
 
 blockquote {
   border-left:1px solid #e5e5e5;
@@ -215,6 +219,21 @@ footer {
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+  }
+
+  ul.posts span {
+    color: #aaa;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
 
 @media print, screen and (max-width: 960px) {
 
