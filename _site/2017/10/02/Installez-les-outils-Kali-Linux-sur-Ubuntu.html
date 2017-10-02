@@ -30,29 +30,24 @@
         -->
       </header>
       <section>
-        <section>
-<h1>Posts</h1>
+        <div id="post">
+<h2 id="kali-linux">Kali Linux</h2>
+<p>Kali Linux est une distribution GNU/Linux, l’objectif de Kali Linux est de fournir une distribution regroupant l’ensemble des outils nécessaires aux tests de sécurité d’un système d’information, notamment le test d’intrusion.</p>
 
-<ul class="posts">
-    
-      <li>02 Oct 2017 &raquo;&raquo; <a href="/2017/10/02/Installez-les-outils-Kali-Linux-sur-Ubuntu.html">Installez les outis Kali Linux sur Ubuntu</a></li>
-    
-      <li>27 Sep 2017 &raquo;&raquo; <a href="/2017/09/27/Faire-crasher-Windows.html">Faire crasher Windows 7</a></li>
-    
-      <li>27 Sep 2017 &raquo;&raquo; <a href="/2017/09/27/the-language-of-the-computers.html">L'Ordinateur code l'information</a></li>
-    
-  </ul>
+<p>Pour ce faire, nous allons installer les outils de Kali sur Ubuntu sans avoir besoin de le faire tourner dans une machine virtuel!
+Katoolin a etais crée pour faciliter la tache, seulment avec quelques lignes de code on ta des outils tres puissant dans les mains.</p>
 
-<h1>Downloads</h1>
-  <ul>VisuaLG &raquo;&raquo; <a href="https://sourceforge.net/projects/visualg30/">Download</a></ul>
-  <ul>Python &raquo;&raquo; <a href="https://www.python.org/downloads/">Download</a></ul>
-  <ul>PyCharm Edu &raquo;&raquo; <a href="https://www.jetbrains.com/pycharm-edu/download">Download</a></ul>
-  <ul>Scratch &raquo;&raquo; <a href="https://scratch.mit.edu/">Download</a></ul>
-  <ul>Arduino &raquo;&raquo; <a href="https://www.arduino.cc/en/Main/Software">Download</a></ul>
+<h3 id="installez-katoolin">Installez Katoolin</h3>
 
+<p>L’installation ce fait entierement par ligne de commande. Ouvrons le terminal de votre distribution Linux et tapez le suivant:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install git
+sudo git clone https://github.com/LionSec/katoolin.git
+sudo cp katoolin/katoolin.py /usr/bin/katoolin
+sudo chmod +x /usr/bin/katoolin
+</code></pre></div></div>
+<p>Mantenant vous etais pret a l’installer, il vous suffit de suivre les petites instructions données par le programme.</p>
 
-
-</section>
+</div>
 
       </section>
       <footer>

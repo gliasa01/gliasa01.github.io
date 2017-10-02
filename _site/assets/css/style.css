@@ -235,6 +235,43 @@
 .highlight {
   background-color: #f8f8f8; }
 
+.wrapper {
+  width: 860px;
+  margin: 0 auto; }
+
+.title {
+  text-decoration: none;
+  color: black; }
+
+.title:hover {
+  text-decoration: none;
+  color: black; }
+
+.profile {
+  width: 160px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%; }
+
+.layer {
+  max-width: 100%;
+  width: 340px;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em; }
+
+ul.posts li {
+  line-height: 2em; }
+
+ul.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%; }
+
 body {
   background-color: #fff;
   padding: 50px;
@@ -279,10 +316,6 @@ a small {
 a:hover small {
   color: #777; }
 
-.wrapper {
-  width: 860px;
-  margin: 0 auto; }
-
 blockquote {
   border-left: 1px solid #e5e5e5;
   margin: 0;
@@ -319,19 +352,6 @@ th {
 
 img {
   max-width: 100%; }
-
-.profile {
-  width: 160px;
-  height: 160px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%; }
-
-.layer {
-  max-width: 100%;
-  width: 340px;
-  margin-left: 50px;
-  margin-right: 50px; }
 
 header {
   padding-top: 20px;

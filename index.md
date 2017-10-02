@@ -6,11 +6,19 @@ layout: default
 
 <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li>{{ post.date | date_to_string }} &raquo;&raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
+<h1>Downloads</h1>
+  <ul>VisuaLG &raquo;&raquo; <a href="https://sourceforge.net/projects/visualg30/">Download</a></ul>
+  <ul>Python &raquo;&raquo; <a href="https://www.python.org/downloads/">Download</a></ul>
+  <ul>PyCharm Edu &raquo;&raquo; <a href="https://www.jetbrains.com/pycharm-edu/download">Download</a></ul>
+  <ul>Scratch &raquo;&raquo; <a href="https://scratch.mit.edu/">Download</a></ul>
+  <ul>Arduino &raquo;&raquo; <a href="https://www.arduino.cc/en/Main/Software">Download</a></ul>
+
 {% if site.github.is_project_page %}
+  <h1>Projects</h1>
   <p class="view"><a href="{{ site.github.repository_url }}">Projects on GitHub <small>{{ github_name }}</small></a></p>
 {% endif %}
 
