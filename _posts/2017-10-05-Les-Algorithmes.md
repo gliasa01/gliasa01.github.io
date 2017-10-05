@@ -4,7 +4,7 @@ title:  "Les Algorithmes (Partie 1/3)"
 date:   2017-10-05 16:00
 ---
 # Les Algorithmes (Partie 1/3)
-### 2017-10-05
+## {{ post.date | date_to_string }}
 
 Un algorithme est une suite d’instructions détaillées qui conduise à un résultat donné. Pour que vous aillez une notion plus ample de la chose voici un exemple:
 On peut considérer que une recette de cuisine est une notice de montage qui peuvent considérées comme des algorithmes.

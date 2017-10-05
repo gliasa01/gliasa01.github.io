@@ -4,7 +4,7 @@ title:  "Installez les outis Kali Linux sur Ubuntu"
 date:   2017-10-02 20:38
 ---
 # Kali Linux
-### 2017-10-02
+## {{ post.date | date_to_string }}
 
 Kali Linux est une distribution GNU/Linux, l'objectif de Kali Linux est de fournir une distribution regroupant l'ensemble des outils nécessaires aux tests de sécurité d'un système d'information, notamment le test d'intrusion.
 
