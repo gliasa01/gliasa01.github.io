@@ -3,6 +3,8 @@ layout: post
 title:  "Les Algorithmes (Partie 1/3)"
 date:   2017-10-05 16:00
 ---
+# Les Algorithmes (Partie 1/3)
+### 2017-10-05
 
 Un algorithme est une suite d’instructions détaillées qui conduise à un résultat donné. Pour que vous aillez une notion plus ample de la chose voici un exemple:
 On peut considérer que une recette de cuisine est une notice de montage qui peuvent considérées comme des algorithmes.
@@ -53,4 +55,4 @@ fin algorithme
 A la fin de cet algorithme, x et y contiennent la valeur 5 et z la valeur 11 ( = 5+5+1).
 Comme vous pouvez le voir affecter une variable, c’est attribuer une valeur à cette variable. Mais si cette même variable contenait déjà une valeur, cette ancienne valeur est effacée. (substitué)
 
-On arrive a la fin, je vous vois dans la prochaine. 
+On arrive a la fin, je vous vois dans la prochaine.
