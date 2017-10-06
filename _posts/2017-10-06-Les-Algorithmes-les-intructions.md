@@ -27,4 +27,24 @@ fin algorithme
 
 Cet algorithme demande d’entrer un nombre entier, stocke la valeur de ce nombre dans la variable x, puis calcule le double du nombre entré et affecte ce double à la variable y.
 
-...Not_Finish...
+### Ecriture
+
+Dans notre pseudo-code nous utiliserons l’instruction afficher suivie du nom d’une variable ou d’une constante (nombre, texte …) pour afficher une valeur.
+
+```
+afficher 'Ce texte sera affiché'
+```
+Voici l'example d'un programme qui aficher votre age en 2100:
+```
+variables
+   année, âge, âge_en_2100 : entiers
+début algorithme
+   afficher "Entrer l'année actuelle"
+   lire année
+   afficher "Entrer votre âge"
+   lire âge
+   âge_en_2100 prend la valeur âge + 2100 - année
+   afficher "En 2100, vous aurez ", âge_en_2100, " ans."
+fin algorithme
+```
+On arrive a la fin, je vous vois dans une prochaine fois!
