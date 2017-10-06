@@ -11,26 +11,13 @@
     <div class="wrapper">
       <header>
         <img class="profile" src="{{ site.profile_pic }}">
-        <h1><a class="title" href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a class="title" href="/">{{ site.title }}</a></h1>
 
-        <!---
-        <p>◼️ Technology Student from ESF</p>
-        <p>◼️ Go to 42 School </p>
-        <p>◼️ Arch Linux Power User</p>
+        <p><small>I'm a technology student from ESF and soon I will go to 42 School</small></p>
+        <p><small>I am a libre software evangelist. I have been using GNU/Linux starting with Ubuntu 12.04. My favorite text editor is Vim.</small></p>
 
-        {% if site.github.is_user_page %}
-          <p class="view"><a href="{{ site.github.owner_url }}"><i class="fa fa-github-square" aria-hidden="true"></i></a></p>
-          <p class="view"><a href="{{ site.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></p>
-        {% endif %}
+        <p><small>E-Mail: pro.micaelandre@gmail.com</small></p>
 
-        {% if site.show_downloads %}
-          <ul>
-            <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-            <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-          </ul>
-        {% endif %}
-        -->
       </header>
       <section>
         {{ content }}

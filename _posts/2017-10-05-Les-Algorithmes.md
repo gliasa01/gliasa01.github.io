@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Les Algorithmes (Partie 1/3)"
+title:  "Les Algorithmes: Les Bases (Partie 1/3)"
 date:   2017-10-05 16:00
 ---
 # Les Algorithmes (Partie 1/3)
