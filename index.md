@@ -10,6 +10,11 @@ layout: default
     {% endfor %}
   </ul>
 
+<h1>Files</h1>  
+  <ul>Learn Linux, 101: The Linux command line &raquo;&raquo; <a href="https://www.ibm.com/developerworks/linux/library/l-lpic1-103-1/l-lpic1-103-1-pdf.pdf">[PDF]</a></ul>
+  <ul>Learn Linux, 101 : Hard disk layout &raquo;&raquo; <a href="https://www.ibm.com/developerworks/library/l-lpic1-102-1/l-lpic1-102-1-pdf.pdf">[PDF]</a></ul>
+  <ul>Learn Linux, 101: File and directory management &raquo;&raquo; <a href="https://www.ibm.com/developerworks/linux/library/l-lpic1-103-3/l-lpic1-103-3-pdf.pdf">[PDF]</a></ul>
+
 <h1>Downloads</h1>
   <ul>VisuaLG &raquo;&raquo; <a href="https://sourceforge.net/projects/visualg30/">Download</a></ul>
   <ul>Python &raquo;&raquo; <a href="https://www.python.org/downloads/">Download</a></ul>
